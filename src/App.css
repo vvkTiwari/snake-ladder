@@ -7,8 +7,8 @@ body,
 html,
 body,
 #app {
-  width: 100%;
-  height: 100%;
+  width: 150%;
+  height: 150%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -59,6 +59,11 @@ body,
 .start-menu-container .player-count-button-container .player-count-button:nth-child(3) {
   background: #2196f3;
 }
+.start-input {
+  width: 50%;
+  height: 2vw;
+  font-size: 1vw;
+}
 
 .victory-message-container {
   text-align: center;
@@ -70,6 +75,10 @@ body,
   display: flex;
   flex-flow: row no-wrap;
   justify-content: space-between;
+}
+
+.roll-dice {
+  font-size: 1vw;
 }
 
 .board {
